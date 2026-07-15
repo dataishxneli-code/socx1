@@ -1,0 +1,174 @@
+<!-- ფონტების შემოტანა -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<nav class="navbar">
+  <div class="container flex-nav">
+    <div class="brand">
+      <a href="#" class="logo">SOCX <span>MEDIA</span></a>
+      <div class="theme-switch-wrapper">
+        <input type="checkbox" id="theme-toggle">
+        <label for="theme-toggle" class="mode-toggle">
+          <span class="ball"></span>
+        </label>
+      </div>
+    </div>
+    
+    <div class="nav-links">
+      <a href="#about">ჩვენს შესახებ</a>
+      <a href="#packages">ტარიფები</a>
+      <a href="#contact">დაიწყე პროექტი</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="reveal active">
+      <span class="hero-subtitle">High-End Production Agency</span>
+      <h1 class="hero-title">შენი სივრცე — <br>შენი <span class="gradient-text">საუკეთესო რეკლამა</span></h1>
+      <p class="hero-desc">ჩვენ ვშლით საზღვრებს რეალობასა და ციფრულ სამყაროს შორის. SOCX MEDIA აქცევს ნებისმიერ ლოკაციას პრემიუმ ხარისხის ვიზუალურ გამოცდილებად.</p>
+      <div class="hero-btns">
+        <a href="#packages" class="btn-glow">იხილე პაკეტები</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section reveal">
+  <div class="container about-wrapper">
+    <div class="about-content">
+      <div class="section-meta">ჩვენი მისია</div>
+      <h2 class="title-lg">ჩვენ ვქმნით <span>ციფრულ მომავალს</span></h2>
+      <p class="mission-text">SOCX MEDIA-ს მისიაა გადალახოს სტანდარტული მარკეტინგის ჩარჩოები. ჩვენ ვაერთიანებთ უახლეს ტექნოლოგიებსა და კრეატიულ ხედვას, რათა თქვენი ბიზნესის ლოკაცია იქცეს ძლიერ სარეკლამო იარაღად. ჩვენი მიზანია შევქმნათ კონტენტი, რომელიც აყალიბებს ემოციურ კავშირს თქვენს აუდიტორიასთან.</p>
+      
+      <div class="stats-grid">
+        <div class="stat-card"><h3>100+</h3><p>პროექტი</p></div>
+        <div class="stat-card"><h3>24/7</h3><p>მხარდაჭერა</p></div>
+        <div class="stat-card"><h3>100%</h3><p>ხარისხი</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="packages" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-meta">Pricing Strategy</div>
+      <h2 class="title-lg">აირჩიე შენი <span>ტარიფი</span></h2>
+    </div>
+    
+    <div class="pricing-grid">
+      <div class="price-card reveal" onclick="autoSelect('500')">
+        <div class="p-header">
+          <h3>Standard</h3>
+          <div class="p-amount">500 ₾ <span>/ თვე</span></div>
+        </div>
+        <ul class="p-list">
+          <li>TikTok & Reels მართვა</li>
+          <li>კონტენტის დაგეგმარება</li>
+          <li>კვირაში 3 პოსტი</li>
+        </ul>
+        <button class="select-btn">არჩევა</button>
+      </div>
+
+      <div class="price-card featured reveal" onclick="autoSelect('1100')">
+        <div class="popular-tag">ყველაზე მოთხოვნადი</div>
+        <div class="p-header">
+          <h3>Business</h3>
+          <div class="p-amount">1100 ₾ <span>/ თვე</span></div>
+        </div>
+        <ul class="p-list">
+          <li>სრული ციფრული მართვა</li>
+          <li>რეკლამების ოპტიმიზაცია</li>
+          <li>პროფესიონალური მონტაჟი</li>
+        </ul>
+        <button class="select-btn">არჩევა</button>
+      </div>
+
+      <div class="price-card reveal" onclick="autoSelect('2250')">
+        <div class="p-header">
+          <h3>Premium</h3>
+          <div class="p-amount">2250 ₾ <span>/ თვე</span></div>
+        </div>
+        <ul class="p-list">
+          <li>Daily Content Creation</li>
+          <li>VIP გადაღებები</li>
+          <li>სრული სტრატეგია</li>
+        </ul>
+        <button class="select-btn">არჩევა</button>
+      </div>
+    </div>
+
+    <div class="shots-grid reveal">
+       <div class="shot-card" onclick="autoSelect('mobile')">
+         <h3>Mobile Shot</h3>
+         <div class="shot-price">500 ₾</div>
+         <p>გადაღება სმარტფონით</p>
+         <button class="select-btn">არჩევა</button>
+       </div>
+       <div class="shot-card" onclick="autoSelect('drone')">
+         <h3>Drone Shot</h3>
+         <div class="shot-price">1000 ₾</div>
+         <p>გადაღება დრონით</p>
+         <button class="select-btn">არჩევა</button>
+       </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container reveal">
+    <div class="contact-box-premium">
+      <div class="contact-header">
+        <div class="section-meta">Get In Touch</div>
+        <h2 class="title-lg">დავიწყოთ <span>თანამშრომლობა</span></h2>
+      </div>
+      
+      <form class="premium-form">
+        <div class="form-row">
+          <div class="input-group">
+            <label>სახელი და გვარი</label>
+            <input type="text" placeholder="მაგ: გიორგი ბერიძე" required>
+          </div>
+          <div class="input-group">
+            <label>ტელეფონის ნომერი</label>
+            <input type="tel" placeholder="+995 555 00 00 00" required>
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="input-group">
+            <label>აირჩიეთ პაკეტი</label>
+            <select id="package-selector" required>
+              <option value="" disabled selected>აირჩიეთ პაკეტი</option>
+              <option value="500">Business - 500 ₾</option>
+              <option value="1100">Business+ - 1100 ₾</option>
+              <option value="2250">Enterprise - 2250 ₾</option>
+              <option value="mobile">Mobile Production - 500 ₾</option>
+              <option value="drone">Drone Production - 1000 ₾</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label>მსახიობები</label>
+            <select>
+              <option value="0">მსახიობების გარეშე</option>
+              <option value="1-10">1-10 მსახიობი (+50 ₾)</option>
+              <option value="10+">10+ მსახიობი (შეთანხმებით)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label>თქვენი მოთხოვნები და დეტალები</label>
+          <textarea placeholder="აღწერეთ თქვენი პროექტი..."></textarea>
+        </div>
+        
+        <button type="submit" class="final-btn">შეკვეთის გაგზავნა</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 SOCX MEDIA. BUILT FOR EXCELLENCE.</p>
+</footer>
